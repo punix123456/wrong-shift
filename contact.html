@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+     <link rel="icon" type="image/x-icon" href="assets/favicon/favico2.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Wrong Shift</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .contact-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 60px 20px;
+        }
+
+        .contact-container {
+            max-width: 600px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .contact-form {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+        }
+
+        .contact-form h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: var(--text-main);
+            border-radius: 4px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: rgba(255, 255, 255, 0.5);
+            background: rgba(255, 255, 255, 0.15);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            font-family: 'Montserrat', sans-serif;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: var(--text-main);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html#zagraj">Zagraj </a>
+            <div class="logo-placeholder"><a href="index.html" style="text-decoration: none; color: inherit;">Strona główna</a>
+            </div>
+            <a href="index.html#faq">FAQ</a>
+        </nav>
+    </header>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Skontaktuj się ze mną</h2>
+                <p style="text-align: center; color: var(--text-main); font-size: 18px; margin-bottom: 30px;">
+                    Masz pytania lub uwagi? Skontaktuj sie ze mną.
+                </p>
+                <div style="text-align: center;">
+                    <span style="color: #667eea; font-size: 20px; font-weight: 600;">
+                        jakubbudzik04@gmail.com
+                    </span>
+                </div>
+                <a href="index.html" class="back-link">← Powrót do strony głównej</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Polityka Prywatności</a>
+                <a href="#">Warunki Korzystania</a>
+                <a href="contact.html">Kontakt</a>
+            </div>
+            <p class="footer-info">&copy; 2026 GAMENAME Studio. Wszelkie prawa zastrzeżone. Inspirowane Board Game Design.</p>
+        </div>
+    </footer>
+
+    <script>
+       
+    </script>
+</body>
+</html>
